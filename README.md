@@ -40,4 +40,7 @@
 注意：有时github上已经有文件，版本库不对应，可以强制上传，命令是：
 git push -u origin maste -f (有重要文件在，不建议这么做)
 
+30. 若想下载github上的文件，比如一份markdown文件，命令是：
+git clone git@github.com:xirong/my-markdown.git
 
+完成下载
