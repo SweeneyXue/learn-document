@@ -81,4 +81,6 @@ git clone git@github.com:xirong/my-markdown.git
 >
 >
 43. 多人协作开发
-
+你的小伙伴从远程下载该项目的命令 git clone git@github.com:SweeneyXue/learn-document.git ~/learn/
+  
+- 利用git checkout -b dev origin/dev 创建dev分支，并切换到dev目录下，并且连接到远程库的dev分支下
