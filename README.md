@@ -54,3 +54,4 @@ git clone git@github.com:xirong/my-markdown.git
 36. 合并分支的命令是：git merge dev
 37. 删除分支的命令是：git branch -d dev
 > 完成
+Creating a new branch is quick & simple
