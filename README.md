@@ -84,3 +84,20 @@ git clone git@github.com:xirong/my-markdown.git
 你的小伙伴从远程下载该项目的命令 git clone git@github.com:SweeneyXue/learn-document.git ~/learn/
   
 - 利用git checkout -b dev origin/dev 创建dev分支，并切换到dev目录下，并且连接到远程库的dev分支下
+
+
+
+
+
+
+
+
+
+
+
+##### 总结
+- 一般多人协作就是自己修改，然后试图提交到远程库git push origin dev
+- 若推送失败，则是别人提交了更新，先git pull试图合并;
+- 若合并有冲突，解决冲突，在本地提交
+- 没有冲突或解决冲突后，再git push origin dev
+- 若提示本地分支和远程分支没有链接，利用git branch --set-upstream-to dev origin/dev,然后再按上面的来。
