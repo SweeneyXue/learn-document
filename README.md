@@ -44,3 +44,13 @@ git push -u origin maste -f (有重要文件在，不建议这么做)
 git clone git@github.com:xirong/my-markdown.git
 
 完成下载
+> 创建分支，改变分支，删除分支
+31. git branch -b dev 创建分支dev，并切换分支
+> 上面的命令相当与下面两条命令
+32. git branch dev 创建dev分支
+33. git checkout dev 切换到dev分支
+34. 查看分支的命令是：git branch
+35.分支完成工作，切换回master分支的命令是：git checkout master
+36. 合并分支的命令是：git merge dev
+37. 删除分支的命令是：git branch -d dev
+> 完成
