@@ -115,3 +115,11 @@ git clone git@github.com:xirong/my-markdown.git
 >
 >
 完成
+>
+>
+50. 打标签的命令是:git tag v1.0
+51. 删除标签的命令是：git tag -d v1.0
+52.  推送远程的标签命令是： git push origin v1.0
+53. 一次性推送所有标签：git push origin --tags
+54. 远程删除标签，git push origin :refs/tags/v0.9
+
