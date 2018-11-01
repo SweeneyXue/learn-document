@@ -1,3 +1,4 @@
+# git初学记录
 1. 安装git git apt-get install git
 2. 安装完成后，进一步设置：
 3. git config --global user.name "SweeneyXue"
