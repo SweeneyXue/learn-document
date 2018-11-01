@@ -55,4 +55,10 @@ git clone git@github.com:xirong/my-markdown.git
 37. 删除分支的命令是：git branch -d dev
 > 完成
 > 分支管理合并
-命令：git merge --no-ff -m "merge with no-ff" dev
+> 分支管理
+> cheshi
+> Bug 分支管理
+38. 保存当前工作的现场的命令是:git stash
+> 保存现场，推出当前分支，修复bug后，回到工作分支的方法有两种首先使用命令git stash list 查看保存的工作有那些，找到现场进行恢复，第一种方法是：git stash apply 进行恢复，stash内容不删除，需用git stash drop进行删除。第二种方法是使用git stsh pop ,恢复的同时删除stash内容。（一般用第二种方法）
+> 完成
+
