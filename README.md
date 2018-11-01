@@ -54,5 +54,5 @@ git clone git@github.com:xirong/my-markdown.git
 36. 合并分支的命令是：git merge dev
 37. 删除分支的命令是：git branch -d dev
 > 完成
-> 分支管理
-> cheshi
+> 分支管理合并
+命令：git merge --no-ff -m "merge with no-ff" dev
