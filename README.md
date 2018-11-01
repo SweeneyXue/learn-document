@@ -61,3 +61,6 @@ git clone git@github.com:xirong/my-markdown.git
 > 保存现场，推出当前分支，修复bug后，回到工作分支的方法有两种首先使用命令git stash list 查看保存的工作有那些，找到现场进行恢复，第一种方法是：git stash apply 进行恢复，stash内容不删除，需用git stash drop进行删除。第二种方法是使用git stsh pop ,恢复的同时删除stash内容。（一般用第二种方法）
 > 完成
 
+
+
+> 创建了一个新分支开发新功能，创建成功，开发完成，切换回工作分支后，还未合并，需要删除，命令是:git branch -D fenzhiming
