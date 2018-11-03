@@ -124,4 +124,11 @@ git clone git@github.com:xirong/my-markdown.git
 52.  推送远程的标签命令是： git push origin v1.0
 53. 一次性推送所有标签：git push origin --tags
 54. 远程删除标签，git push origin :refs/tags/v0.9
+>
+>
+更新小知识
+>
+-当master超前与dev的跟新是，，可以切换到dev分支，然后利用：git merge master 更新dev分支内容。
+
+
 

@@ -124,4 +124,30 @@ git clone git@github.com:xirong/my-markdown.git
 52.  推送远程的标签命令是： git push origin v1.0
 53. 一次性推送所有标签：git push origin --tags
 54. 远程删除标签，git push origin :refs/tags/v0.9
+>
+>
+更新小知识
+>
+-当master超前与dev的跟新是，，可以切换到dev分支，然后利用：git merge master 更新dev分支内容。
+
+
+# vim命令记录
+- 多文件启动并且垂直分屏：vim -On 文件1 文件2
+>
+注意n为打开文件的个数，后面跟n个文件
+>
+- 多文件启动并且水平分屏：vim -on 文件1 文件2
+>
+注意O表示垂直，o表示水平
+>
+1. Ctr+w+w:多个窗口切换
+2. Ctr+w c:关闭当前窗口
+3. Esc :进入命令模式
+4. i:切换当插入模式，光标后插入
+5. o：切换到插入模式，光标的下一行插入
+6. G:移动到最后一行
+7. gg：移动当首行
+8. nG:移动到第n行行首
+9. v:进入可视模式，可以选中多行
+10. yy复制，p粘贴
 
